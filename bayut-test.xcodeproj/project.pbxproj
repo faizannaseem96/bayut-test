@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7497372125D2591A0088652E /* bayut_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7497372025D2591A0088652E /* bayut_testUITests.swift */; };
 		74A9649725D13CA2004CAD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9649625D13CA2004CAD8C /* AppDelegate.swift */; };
 		74A9649925D13CA2004CAD8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9649825D13CA2004CAD8C /* SceneDelegate.swift */; };
 		74A9649B25D13CA2004CAD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A9649A25D13CA2004CAD8C /* ViewController.swift */; };
@@ -43,6 +44,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7497372325D2591A0088652E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A9648B25D13CA2004CAD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A9649225D13CA2004CAD8C;
+			remoteInfo = "bayut-test";
+		};
 		74A964B625D13D14004CAD8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 74A9648B25D13CA2004CAD8C /* Project object */;
@@ -53,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7497371E25D2591A0088652E /* bayut-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bayut-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7497372025D2591A0088652E /* bayut_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bayut_testUITests.swift; sourceTree = "<group>"; };
+		7497372225D2591A0088652E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74A9649325D13CA2004CAD8C /* bayut-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bayut-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A9649625D13CA2004CAD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74A9649825D13CA2004CAD8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +101,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7497371B25D2591A0088652E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74A9649025D13CA2004CAD8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,11 +136,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7497371F25D2591A0088652E /* bayut-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7497372025D2591A0088652E /* bayut_testUITests.swift */,
+				7497372225D2591A0088652E /* Info.plist */,
+			);
+			path = "bayut-testUITests";
+			sourceTree = "<group>";
+		};
 		74A9648A25D13CA2004CAD8C = {
 			isa = PBXGroup;
 			children = (
 				74A9649525D13CA2004CAD8C /* bayut-test */,
 				74A964B225D13D13004CAD8C /* bayut-testTests */,
+				7497371F25D2591A0088652E /* bayut-testUITests */,
 				74A9649425D13CA2004CAD8C /* Products */,
 				CF828C2D9CF7E2A1E4BBA43F /* Pods */,
 				1B31208F66FB5B2CF18F5DAA /* Frameworks */,
@@ -134,6 +162,7 @@
 			children = (
 				74A9649325D13CA2004CAD8C /* bayut-test.app */,
 				74A964B125D13D13004CAD8C /* bayut-testTests.xctest */,
+				7497371E25D2591A0088652E /* bayut-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,6 +317,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7497371D25D2591A0088652E /* bayut-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7497372725D2591A0088652E /* Build configuration list for PBXNativeTarget "bayut-testUITests" */;
+			buildPhases = (
+				7497371A25D2591A0088652E /* Sources */,
+				7497371B25D2591A0088652E /* Frameworks */,
+				7497371C25D2591A0088652E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7497372425D2591A0088652E /* PBXTargetDependency */,
+			);
+			name = "bayut-testUITests";
+			productName = "bayut-testUITests";
+			productReference = 7497371E25D2591A0088652E /* bayut-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		74A9649225D13CA2004CAD8C /* bayut-test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74A964A725D13CA4004CAD8C /* Build configuration list for PBXNativeTarget "bayut-test" */;
@@ -335,6 +382,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					7497371D25D2591A0088652E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 74A9649225D13CA2004CAD8C;
+					};
 					74A9649225D13CA2004CAD8C = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -359,11 +410,19 @@
 			targets = (
 				74A9649225D13CA2004CAD8C /* bayut-test */,
 				74A964B025D13D13004CAD8C /* bayut-testTests */,
+				7497371D25D2591A0088652E /* bayut-testUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7497371C25D2591A0088652E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74A9649125D13CA2004CAD8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +512,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7497371A25D2591A0088652E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7497372125D2591A0088652E /* bayut_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74A9648F25D13CA2004CAD8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +560,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7497372425D2591A0088652E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A9649225D13CA2004CAD8C /* bayut-test */;
+			targetProxy = 7497372325D2591A0088652E /* PBXContainerItemProxy */;
+		};
 		74A964B725D13D14004CAD8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 74A9649225D13CA2004CAD8C /* bayut-test */;
@@ -520,6 +592,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7497372525D2591A0088652E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G57B93B2EN;
+				INFOPLIST_FILE = "bayut-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizan.bayut-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bayut-test";
+			};
+			name = Debug;
+		};
+		7497372625D2591A0088652E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G57B93B2EN;
+				INFOPLIST_FILE = "bayut-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizan.bayut-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bayut-test";
+			};
+			name = Release;
+		};
 		74A964A525D13CA4004CAD8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -723,6 +833,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7497372725D2591A0088652E /* Build configuration list for PBXNativeTarget "bayut-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7497372525D2591A0088652E /* Debug */,
+				7497372625D2591A0088652E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74A9648E25D13CA2004CAD8C /* Build configuration list for PBXProject "bayut-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
